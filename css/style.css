@@ -1,0 +1,409 @@
+/* =======================
+  All Common Css Part Start
+   =======================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1114px;
+    margin: 0 auto;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.w{
+    width: 100%;
+}
+/* =======================
+  All Common Css Part End
+   =======================*/
+
+/* =======================
+      Navbar Part Start
+   =======================*/
+nav{
+    padding: 32px 0;
+    color: #f6f9f9;
+}
+nav .container{
+    width: 1114px;
+    margin: 0 auto;
+    color: #f6f9f9;
+}
+.menu_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_container .menu ul li{
+    display: inline-block;
+    padding-left: 40px;
+}
+.menu_container .menu ul li a{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color:#222222 ;
+}
+/* =======================
+      Navbar Part End
+   =======================*/
+/* =======================
+      Bannar Part Start
+   =======================*/   
+#bannar{
+    background: url(../images/Strict.bannar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannar_container{
+    padding-top: 220px;
+    padding-bottom: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.bannar_container .bannar_info{
+    width: 600px;
+    text-align: center;
+    position: relative;
+}
+.bannar_container .bannar_info h1{
+    font-size:120px ;
+    font-weight:700 ;
+    font-family:'Lato', sans-serif;
+    color:#ffffff ;
+    position: relative;
+}
+.bannar_container .bannar_info h1::after{
+    content: "";
+    width:595px ;
+    height: 2px;
+    background-color:#15a4fa ;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.bannar_container .bannar_info p{
+    font-size: 20px;
+    font-weight:400 ;
+    font-family: 'Lato', sans-serif; 
+    color: #fff;
+    padding-top:40px ;
+    padding-bottom: 60px;
+    
+}
+.bannar_container .bannar_info button{
+    padding: 20px 30px;
+    border: 1px #15a4fa solid;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    cursor: pointer;
+    
+}
+.bannar_container .bannar_info i{
+    font-size: 35px;
+    color:#fff;
+    position: absolute;
+    left: 50%;
+    bottom: -197px;
+    transform: translateX(-50%);
+    
+}
+/* =======================
+      Bannar Part End
+   =======================*/
+/* =======================
+      Heading Part Start
+   =======================*/
+#text{
+    padding:80px 0 ;
+    background-color:#f6f9f9 ;
+}
+.text_container{
+    width: 1090px;
+    margin: 0 auto;
+}
+.text_container .text_info{
+    text-align: center;
+}
+.text_container .text_info h4{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+}
+.text_container .text_info p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color:#999999 ;
+    padding-top: 40px;
+}
+/* =======================
+      Heading Part End
+   =======================*/
+/* =======================
+      Service Part Start
+   =======================*/  
+#service{
+    padding: 64px 0;
+}
+
+.service_container .item_info{
+    display: flex;
+    justify-content:space-between;
+   
+}
+.service_container .item_info .item{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.service_container .item_info .item .image{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service_container .item_info .item .image img{
+    position: absolute;
+}
+.service_container .item_info .item .image .color-2{
+    width: 50%;
+    height: 100%;
+    background-color: #15a4fa;
+}
+.service_container .item_info .item .image .color-3{
+    width: 50%;
+    height: 100%;
+    background-color:#5fc3ff
+}
+.service_container .item_info .item .text{
+    text-align: center;
+}
+.service_container .item_info .item .text h4{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color:#2d3950 ;
+    padding-top:30px ;
+}
+.service_container .item_info .item .text p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    color:#999999 ;
+    line-height: 20px;
+    padding-top: 26px;
+}
+/* =======================
+      Service Part End
+   =======================*/ 
+/* =======================
+      Project Part Start
+   =======================*/   
+#project{
+    padding: 80px 0;
+    background-color: #f6f9f9;
+}
+.project_container .section_heading{
+    text-align: center;
+}
+.project_container .section_heading h4{
+    font-size: 41px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color:#2d3950 ;
+}
+.project_container .section_heading p{
+    font-size:15px ;
+    font-weight: 400;
+    font-family:'Lato', sans-serif ;
+    color: #909090;
+}
+.project_item{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top:80px ;
+}
+.project_item .item{
+    width:360px ;
+}
+.project_item .item .image{
+    position: relative;
+}
+.project_item .item .image .overlay{
+    background-color: rgba(21, 162, 250, 0.822);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+.project_item .item:hover .image .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.project_item .item .image .overlay .icon{
+    display: flex;
+    gap: 10px ;
+}
+.project_item .item .image .overlay .icon .icon-box{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px #fff solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project_item .item .image .overlay i{
+    color: #fff;
+    
+}
+/* =======================
+      Project Part End
+   =======================*/ 
+/* =======================
+      Footer Part Star
+   =======================*/
+.footer_bg{
+    background: url(../images/footer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer_bg .overlay{
+    background-color: rgba(60, 77, 109, 0.904);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+}
+.footer_container{
+    padding-top: 76px;
+    padding-bottom: 100px;
+   
+   
+}
+.footer_container .heading{
+    text-align: center;
+}
+.footer_container .heading h4{
+    font-size: 41px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif ;
+    color: #fff;
+}
+.footer_container .heading p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif ;
+    color:#999999 ;
+    padding-top: 21px;
+    padding-bottom: 50px;
+
+}
+.copy{
+    padding: 40px 0;
+    background-color:#f6f9f9;
+}
+.copy .copy_container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.copy .copy_container .left .icon{
+    height: 40px;
+    width: 40px;
+    background-color:#15a4fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copy .copy_container .left .icon i{
+    color: #fff;
+}
+.copy .copy_container .left{
+    display: flex;
+    gap: 5px;
+
+}
+.copy .copy_container .right{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    color:#999999 ;
+}
+/* Form Part Star */
+
+.form_container{
+    max-width:332px;
+    margin: 0 auto;
+}
+.input_item input{
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    border:1px #fff solid;
+    background: transparent;
+}
+.input_item textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    border:1px #fff solid;
+    background: transparent;
+}
+.input_btn button{
+    padding: 9px 40px;
+    background-color: transparent;
+    border: 1px #15a4fa solid;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 105px;
+}
+/* =======================
+      Footer Part End
+   =======================*/
+
+
+
